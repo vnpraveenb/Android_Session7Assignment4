@@ -15,6 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="75dp"
         android:padding="10dp"
+        android:textSize="30dp"
         android:textAlignment="center"
         android:textColor="@color/welcomeTextColor"
         android:textStyle="bold"/>

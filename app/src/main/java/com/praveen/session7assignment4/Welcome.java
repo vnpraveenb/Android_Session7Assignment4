@@ -21,7 +21,7 @@ public class Welcome extends AppCompatActivity {
 
         try {
             // Retrieves username from Intent.
-            String username = loginIntent.getStringExtra("UserName").toString();
+            String username = loginIntent.getStringExtra("Username").toString();
 
             // Update UserName to Welcome TextView
             welcomeTextView.setText("Welcome, " + username);
